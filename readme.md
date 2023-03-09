@@ -2,6 +2,10 @@
 We all know `nix-shell` which is very lightweight.
 But there is also `nixos-shell` which builds and runs a VM.
 
+This is portable and encrypted.
+
+[![asciicast](https://asciinema.org/a/bLMThNKCvqyTlgrtn0mFJTsl7.png)](https://asciinema.org/a/bLMThNKCvqyTlgrtn0mFJTsl7)
+
 # Usage
 Just run `nix-shell` to get the nessecary environment.
 From here you'll be presented with the list of available commands.
