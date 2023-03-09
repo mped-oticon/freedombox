@@ -9,7 +9,7 @@ clean:
 # Decrypt secrets stored in this git repo
 reveal:
   # Decrypted secrets shall only be readable by us, not other local users
-  (umask -S u=rxw,go-rwx; git secret reveal -f)
+  test -e vm-wireguard.nix || (umask -S u=rxw,go-rwx; git secret reveal)
 
 # Delete decrypted plain-text, leaving only the encrypted files
 hide:
