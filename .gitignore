@@ -1,0 +1,10 @@
+# no large VM data in source repo
+*.qcow2
+
+# git secrets boilerplate
+*~
+.gitsecret/keys/random_seed
+!*.secret
+
+# individual secrets
+vm-wireguard.nix
